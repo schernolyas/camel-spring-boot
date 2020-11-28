@@ -28,6 +28,16 @@
   <packaging>jar</packaging>
   <name>Camel SB Starters :: Milo</name>
   <description>Spring-Boot Starter for Camel OPC UA support</description>
+  <distributionManagement>
+    <repository>
+      <id>maven-axxalon</id>
+      <url>http://116.202.242.119:8081/repository/maven-iiot-releases/</url>
+    </repository>
+    <snapshotRepository>
+      <id>maven-axxalon</id>
+      <url>http://116.202.242.119:8081/repository/maven-iiot-snapshots/</url>
+    </snapshotRepository>
+  </distributionManagement>
   <dependencies>
     <dependency>
       <groupId>org.springframework.boot</groupId>
